@@ -1,0 +1,102 @@
+body {
+  background-color: #141414;
+}
+
+.social-media-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.social-media-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  width: 384px;
+  height: 611px;
+  border-radius: 12px;
+  gap: 24px;
+  padding: 40px;
+}
+
+.hero-img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+}
+
+.hero-img img {
+  width: inherit;
+  height: inherit;
+  border-radius: inherit;
+}
+
+.hero-name-location {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.hero-name-location p:nth-child(1) {
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hero-name-location p:nth-child(2) {
+  color: #c4f82a;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.hero-about {
+  color: white;
+  font-size: 14px;
+}
+
+.social-media-links-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 16px;
+}
+
+.social-media-links-button {
+  width: 100%;
+  height: 45px;
+  text-align: center;
+  background-color: #333333;
+  color: white;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 12px;
+}
+
+.social-media-links-button:hover {
+  background-color: #c4f82a;
+  color: #333333;
+}
+
+@media (max-width: 768px) {
+  .social-media-card {
+    width: 456px;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-media-card {
+    width: 327px;
+  }
+}
+
+@media (max-width: 375px) {
+  .social-media-card {
+    width: 327px;
+  }
+}
