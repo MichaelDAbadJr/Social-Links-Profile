@@ -1,11 +1,11 @@
-const About = () => {
+const About = ({ name, location, about }) => {
   return (
     <>
       <div className="hero-name-location">
-        <p>Jessica Randall</p>
-        <p>London, United Kingdom</p>
+        <p>{name}</p>
+        <p>{location}</p>
       </div>
-      <p className="hero-about">{`"Front-end developer and avid reader."`}</p>
+      <p className="hero-about">{about}</p>
     </>
   );
 };

@@ -1,6 +1,4 @@
-import heroImg from '../../assets/images/avatar-jessica.jpeg';
-
-const Hero = () => {
+const Hero = ({heroImg}) => {
   return (
     <div className="hero-img">
       <img src={heroImg} alt="heroImg" />
