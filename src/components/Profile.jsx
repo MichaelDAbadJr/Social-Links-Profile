@@ -8,7 +8,7 @@ const Profile = ({ profileData }) => {
       {profileData.map(profile => {
         return (
           <div key={profile.name} className="social-media-card">
-            <Hero heroImg={profile.heroImg} />
+            <Hero />
             <About
               name={profile.name}
               location={profile.location}
