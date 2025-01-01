@@ -3,7 +3,7 @@
     "name": "Jessica Randall",
     "location": "London, United Kingdom",
     "about": "\"Frontend developer and avid reader.\"",
-    "heroImg": "../../assets/images/avatar-jessica.jpeg",
+    "heroImg": "../assets/avatar-jessica.jpeg",
     "links": ["GitHub", "Frontend Mentor", "LinkedIn", "Twitter", "Instagram"]
   }
 ]
